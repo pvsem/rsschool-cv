@@ -1,6 +1,5 @@
 # Pavel Semochkin
 <https://github.com/pvsem> | <semochkin.pavel@yandex.ru>
-***
 ## ABOUT
 Hello! My name is Pavel. I'm a Senior Software Testing Engineer in EPAM SYSTEMS. Looking forward to become Software engineer.
 ## SKILLS
@@ -11,6 +10,7 @@ Hello! My name is Pavel. I'm a Senior Software Testing Engineer in EPAM SYSTEMS.
 - CSS
 - Agile Scrum
 - SQL
+
 ## CODE EXAMPLE
 ```
 const isPangram = string => {
@@ -20,13 +20,13 @@ const isPangram = string => {
 }
 ```
 ## WORK EXPERIENCE
-EPAM SYSTEMS | Ryazan - Moscow
+EPAM SYSTEMS | Ryazan - Moscow  
 Senior Software Testing Engineer | Winter 2018 - Now
 ## EDUCATION
-RYAZAN STATE RADIOENGINEERING UNIVERSITY | Ryazan
+RYAZAN STATE RADIOENGINEERING UNIVERSITY | Ryazan  
 Design and technology of compurers | Fall 2013 - Fall 2017
 
 EPAM TRAINING CENTER | Ryazan
-Testing and quality assurance of information systems training | Fall 2017 - Winter 2018
+Testing and quality assurance of information systems training | Fall 2017 - Winter 2018  
 ## ENGLISH
 Upper-Intermediate | B2
