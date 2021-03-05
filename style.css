@@ -1,0 +1,103 @@
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(251, 247, 244);
+}
+
+body {
+  margin-top: 8px;
+}
+
+hr {
+  border-bottom: none;
+  opacity: .5;
+}
+
+.page {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-left {
+  width: 40%;
+  margin-right: 16px;
+}
+
+.column-right {
+  width: 40%;
+  margin-left: 16px;
+}
+
+.text-link {
+  color: #37352f;
+  opacity: .4;
+}
+
+.text-link:hover {
+  opacity: 1;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.avatarImg {
+  width: 100px;
+  height: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+header {
+  display: flex;
+}
+
+main {
+  min-height: 80vh;
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.rsschool-logo {
+  height: 30px;
+  width: 60px;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    flex-direction: column;
+  }
+  .page {
+    max-width: 90%;
+  }
+  .column-left,
+  .column-right {
+    width: 100%;
+    margin: 0;
+  }
+  .code {
+    white-space: break-spaces;
+  }
+}
