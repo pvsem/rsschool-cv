@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML, CSS & Git Basics</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class='page'>
+  <header>
+    <h1>Pavel Semochkin</h1>
+    <img class='avatarImg' src='./img/ava10.jpg' alt='Profile pic'>
+  </header>
+  <hr />
+  <main>
+    <div class='column-left'>
+      <section>
+        <h2>ABOUT</h2>
+        <p>Hello! My name is Pavel. I’m a Senior Software Testing Engineer in EPAM SYSTEMS. <br />Looking forward to
+          become
+          Software
+          engineer.</p>
+      </section>
+      <section>
+        <h2>SKILLS</h2>
+        <ul>
+          <li>Functional testing</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+          <li>Agile Scrum</li>
+        </ul>
+      </section>
+      <section>
+        <h2>CODE EXAMPLE</h2>
+      <code>
+const isPangram = string => {
+  const strLowerNoSpace = string.replace(/\s/g, '').toLowerCase()
+  const uniqueStr = Array.from(new Set(strLowerNoSpace.split('')))
+  .sort().join('').match(/[a-z]/g)
+ return uniqueStr.join('') === 'abcdefghijklmnopqrstuvwxyz'
+ }
+      </code>
+      </section>
+    </div>
+    <div class='column-right'>
+      <section>
+        <h2>WORK EXPERIENCE</h2>
+        <p>EPAM SYSTEMS | Ryazan - Moscow</p>
+        <p>Senior Software Testing Engineer | Winter 2018 - Now</p>
+      </section>
+      <section>
+        <h2>EDUCATION</h2>
+        <p>RYAZAN STATE RADIOENGINEERING UNIVERSITY | Ryazan <br />
+          Design and technology of compurers | Fall 2013 - Fall 2017
+        </p>
+        <p>EPAM TRAINING CENTER | Ryazan <br />
+          Testing and quality assurance of information systems training | Fall 2017 - Winter 2018
+        </p>
+      </section>
+      <section>
+        <h2>ENGLISH</h2>
+        <p>Upper-Intermediate | B2</p>
+      </section>
+      <section>
+        <h2>CONTACTS</h2>
+        <ul>
+          <li><a class='text-link' href='https://github.com/pvsem' target="_blank">https://github.com/pvsem</a></li>
+          <li><a class='text-link' href='mailto:semochkin.pavel@yandex.ru'>semochkin.pavel@yandex.ru</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <hr/>
+  <footer>
+    <a href='https://github.com/pvsem' target='_blank'>
+      <img class='github-logo' src='./img/github.gif' alt='github'>
+    </a>
+    <a href='https://rs.school/' target='_blank'>
+      <img class='rsschool-logo' src='./img/rs_school-og.png' alt='rsschool'>
+    </a>
+    <p>&#169; 2021</p>
+  </footer>
+</div>
+</body>
+
+</html>
